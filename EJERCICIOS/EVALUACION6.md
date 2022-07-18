@@ -22,6 +22,66 @@ Sacheri)
 * El juego de Ender (Orson Scott Card)
 * El sueño de los héroes (Adolfo Bioy Casares)
 
+      print('Menu de recomendaciones')
+      print('-----------------------')
+      print('''Opciones: 
+
+      1. Literatura
+      2. Cine
+      3. Música
+      4. Videojuegos
+      5. Salir''')
+
+      eleccion=int(input('elige una opción '))
+
+      if eleccion==1:
+          print('''
+      Opcion 1:
+
+      Lecturas recomendadas:
+
+      Esperándolo a Tito y otros cuentos de fútbol (Eduardo Sacheri)
+      El juego de Ender (Orson Scott Card)
+      El sueño de los héroes (Adolfo Bioy Casares)''')
+
+      elif eleccion==2:
+          print('''
+      opcion 2:
+
+      Películas recomendadas:
+
+      Matrix (1999)
+      El último samuray (2003)
+      Cars (2006)''')
+
+      elif eleccion==3:
+          print('''
+      opcion 3:
+
+      Discos recomendados:
+
+      Despedazado por mil partes (La Renga, 1996)
+      Búfalo (La Mississippi, 2008)
+      Gaia (Mago de Oz, 2003)''')
+
+      elif eleccion==4:
+          print('''
+      opcion 4:
+
+      Videojuegos clásicos recomendados:
+
+      Día del tentáculo (LucasArts, 1993)
+      Terminal Velocity (Terminal Reality/3D Realms, 1995)
+      Death Rally (Remedy/Apogee, 1996)''')
+
+      elif eleccion==5:
+          print('''
+      -----Gracias, vuelva pronto-----''')
+
+      else:
+          print('''
+      -----Opción no válida-----''')
+
 opcion 2:
 
 Películas recomendables:
